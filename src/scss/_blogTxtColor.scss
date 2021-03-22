@@ -1,0 +1,15 @@
+.posts{
+    .first__post{
+        margin-bottom: 20px;
+        background-color: cornsilk;
+        h2{
+            color: brown;
+        }    
+    }
+
+    .second__post,
+    .third__post{
+        @extend .first__post
+    }
+    
+}

@@ -1,0 +1,46 @@
+.imgs{
+    width: 100%;
+    .rows{
+        img{
+            width: 25%;
+            margin: 10px;
+        }
+
+        #rotate{
+            transition: all .5s linear;
+            &:hover{
+                transform: rotate(-.25turn);
+            }
+        }
+        #scale{
+            transition: all .5s linear;
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+        #translate{
+            transition: all .5s linear;
+            &:hover{
+                transform: translate(0, -50px);
+            }
+        }
+        #opacity{
+            transition: all .5s linear;
+            &:hover{
+                opacity: 0;
+            }
+        }
+        #skew{
+            transition: all .5s linear;
+            &:hover{
+                transform: skew(20deg);
+            }
+        }
+        #hover{
+            transition: all .5s linear;
+            &:hover{
+                transform: rotate(1turn);
+            }
+        }
+    }
+}
