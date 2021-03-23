@@ -1,5 +1,5 @@
 <template>
-    <div id="404">Not Found 404</div>
+    <div id="notFound">Not Found 404</div>
 </template>
 <script>
 export default {
@@ -7,7 +7,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-#404 {
+#notFound {
     margin: auto;
 }
 </style>
