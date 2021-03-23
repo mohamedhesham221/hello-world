@@ -9,7 +9,7 @@ import Gallery from "../views/Gallery.vue";
 import Employees from "../views/Employees.vue";
 import Movies from "../views/Movies.vue";
 import Profile from "../views/Profile.vue";
-import { component } from "vue/types/umd";
+import NotFound from "../views/NotFound.vue";
 // import { component } from "vue/types/umd";
 Vue.use(VueRouter);
 
@@ -61,7 +61,7 @@ const routes = [
   },
   {
     path: "/*",
-    component: 404
+    component: NotFound
   }
 ];
 
